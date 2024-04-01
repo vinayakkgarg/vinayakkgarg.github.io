@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Vinayakk Garg</title>
+<link>https://vinayakkgarg.github.io/projects.html</link>
+<atom:link href="https://vinayakkgarg.github.io/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.552</generator>
+<lastBuildDate>Sat, 30 Mar 2024 18:30:00 GMT</lastBuildDate>
+<item>
+  <title>Mental health LLM Chatbot</title>
+  <link>https://vinayakkgarg.github.io/projects/NLP/llm_chatbot.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/llm_chatbot.webp" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<p>Developed this project while leading the ML team at <a href="https://www.omdena.com/">Omdena</a>. <br> An innovative chatbot designed to diagnose mental health issues such as social media addiction, social isolation, and cyberbullying, based on responses to a customized questionnaire.</p>
+</div>
+</div>
+</div>
+<p>The solution involved several key technical strategies:</p>
+<section id="custom-dataset-creation" class="level3">
+<h3 class="anchored" data-anchor-id="custom-dataset-creation">Custom Dataset Creation:</h3>
+<p>Leveraged the Gemini and Google Bard models to generate a unique dataset simulating various mental health scenarios, facilitating the chatbot’s ability to provide personalized advice and support.</p>
+</section>
+<section id="model-selection-and-fine-tuning" class="level3">
+<h3 class="anchored" data-anchor-id="model-selection-and-fine-tuning">Model Selection and Fine-Tuning:</h3>
+<p>Chose Mistral Instruct 7B for its robust capabilities, performing supervised fine-tuning with our custom dataset for enhanced specificity to mental health conditions.</p>
+</section>
+<section id="advanced-model-refinement" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-model-refinement">Advanced Model Refinement:</h3>
+<p>Employed Direct Preference Optimization (DPO) within a Reinforcement Learning from Human Feedback (RLHF) framework, further aligning the chatbot’s responses with user needs. Parameter Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA) techniques were utilized for efficient training on a single NVIDIA A100 GPU.</p>
+</section>
+<section id="deployment-strategy" class="level3">
+<h3 class="anchored" data-anchor-id="deployment-strategy">Deployment Strategy:</h3>
+<p>The chatbot was deployed using Streamlit on a Google Cloud Platform (GCP) Virtual Machine (VM). To ensure global accessibility, firewall rules were modified, allowing users worldwide to interact with the Streamlit application seamlessly.</p>
+<p>This comprehensive approach not only optimized the chatbot for accurately identifying and addressing users’ mental health challenges but also demonstrated a model for deploying AI-driven health support tools globally.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/NLP/llm_chatbot.html</guid>
+  <pubDate>Sat, 30 Mar 2024 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Hybrid LSTM for NIFTY50 predictions</title>
+  <link>https://vinayakkgarg.github.io/projects/Time-series/hybrid_lstm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/hybrid_lstm.webp" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: flex-start;">
+<p>Stock market prediction using Long Short Term Memory Networks (LSTMs)</p>
+</div>
+</div>
+</div>
+<p>Aggregated NIFTY50 index data along with other global indices from various international stock markets, aiming to analyze the impact of global trends on the NIFTY50 index. Utilised statistics to develop technical indicators to capture market dynamics accurately.</p>
+<p>Engineered a Hybrid LSTM model that incorporates Long Short-Term Memory networks to leverage temporal dependencies and the influence of global market trends on the NIFTY50 index.</p>
+<p>The model was rigorously tested using advanced metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), and R2 score to ensure optimal performance. The goal was to accurately predict the NIFTY50 index’s movements by understanding its correlation with global market trends.</p>
+<p>Achieved the goal of delineating the NIFTY50 index’s responsiveness to global market trends, resulting in a research paper that was presented at an IEEE conference, highlighting the project’s success in combining AI with financial analysis to forecast market movements effectively.</p>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://github.com/vinayakkgarg/HybridLSTM_For_NIFTY_predictions" target="_blank">github</a></p>
+</section>
+<section id="publication-link" class="level3">
+<h3 class="anchored" data-anchor-id="publication-link">Publication Link:</h3>
+<p><a href="https://ieeexplore.ieee.org/document/9579732" target="_blank">Hybrid LSTM for NIFTY50 predictions</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Time-series/hybrid_lstm.html</guid>
+  <pubDate>Mon, 31 May 2021 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Movie Reviews Sentiment Analysis</title>
+  <link>https://vinayakkgarg.github.io/projects/NLP/movie_review_sentiment_analysis.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/movie_reviews.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>A multilayer perceptron model to classify the movie reviews from the IMDB dataset as positive or negative. The obtained accuracy on test set is 85%.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data:</h3>
+<p><a href="https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews">IMDB Dataset of 50K Movie Reviews-Kaggle</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<ol type="1">
+<li><a href="https://colab.research.google.com/drive/1eN4VpzLpQJJlXk5Ts2CJlGItA-4mRQnZ?usp=sharing">MLP Colab Notebook</a></li>
+<li><a href="https://colab.research.google.com/drive/1WurrN7KTdIZEHBKiFkzvLz_Fqm_u3AMB?usp=sharing">RNN LSTM Colab Notebook</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/NLP/movie_review_sentiment_analysis.html</guid>
+  <pubDate>Wed, 30 Dec 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>COVID Multiclassifier</title>
+  <link>https://vinayakkgarg.github.io/projects/CV/covid.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/covid.jpeg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>A machine learning model which uses Siamese network based architecture to perform multi-class classification to identify and separate Pneumonia, Normal, COVID-19, and Severe COVID-19 patients on the basis of the X-Ray images. The obtained accuracy is 98%.</p>
+
+
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/CV/covid.html</guid>
+  <pubDate>Fri, 30 Oct 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Fashion MNIST Analysis</title>
+  <link>https://vinayakkgarg.github.io/projects/Kaggle/fashion_mnist.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/fashion_mnist.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Convolutional Neural Networks implementation using Keras API for analysis on the fashion MNIST dataset. The obtained accuracy on the test set is 86%.</p>
+<section id="challenge" class="level3">
+<h3 class="anchored" data-anchor-id="challenge">Challenge:</h3>
+<p><a href="https://www.kaggle.com/zalando-research/fashionmnist">Kaggle Challenge</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<ol type="1">
+<li><a href="https://colab.research.google.com/drive/1bqsY_py5RILS_SjSAyd0I6OLpCk7MxQn?usp=sharing">Google Colab Notebook</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Kaggle/fashion_mnist.html</guid>
+  <pubDate>Sat, 05 Sep 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Imagenet4U</title>
+  <link>https://vinayakkgarg.github.io/projects/CV/imagenet.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/imagenet.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Implementation of deep CNN to classify horses, dogs, humans and cats trained on a part of the imagenet dataset. Training and validation generator used in pipeline to accomodate large data.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data:</h3>
+<p><a href="https://www.image-net.org/download.php">Imagenet Dataset</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://colab.research.google.com/drive/1i8gCJl0M568WipdZTJUh_XBuuWyIDLIf?usp=sharing">Google Colab Notebook</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/CV/imagenet.html</guid>
+  <pubDate>Thu, 30 Jul 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>MNIST Analysis</title>
+  <link>https://vinayakkgarg.github.io/projects/Kaggle/mnist_analysis.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/mnist.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Implementation of a small size convolutional neural network using Keras API and Naive Bayes classifier for recognition of handwritten digits using the MNIST dataset. The obtained accuracy is 99%.</p>
+<section id="challenge" class="level3">
+<h3 class="anchored" data-anchor-id="challenge">Challenge:</h3>
+<p><a href="https://www.kaggle.com/c/digit-recognizer/overview">Kaggle Challenge</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<ol type="1">
+<li><a href="https://colab.research.google.com/drive/1n_s_kXAlkpAWLirjaNVrwR-c3kmX2epp?usp=sharing">Naive Bayes Colab Notebook</a></li>
+<li><a href="https://colab.research.google.com/drive/1J4ZzldXxSX0ElvApJek12oEj1nPO8VAQ?usp=sharing">CNN Colab Notebook</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Kaggle/mnist_analysis.html</guid>
+  <pubDate>Sat, 30 May 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Housing Prices Prediction</title>
+  <link>https://vinayakkgarg.github.io/projects/Kaggle/housing_prices.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/housing_pred.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Analysis of performance of linear regression against a neural network on the house prices dataset of Kaggle challenge.</p>
+<section id="challenge" class="level3">
+<h3 class="anchored" data-anchor-id="challenge">Challenge:</h3>
+<p><a href="https://www.kaggle.com/c/home-data-for-ml-course/data">Kaggle Challenge</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<ol type="1">
+<li><a href="https://colab.research.google.com/drive/1o65GV7gnuk5OXN8eb6RYcUAQ6l257iUE?usp=sharing">Google Colab Notebook</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Kaggle/housing_prices.html</guid>
+  <pubDate>Mon, 30 Mar 2020 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Emoji Predictor</title>
+  <link>https://vinayakkgarg.github.io/projects/NLP/emoji_predictor.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/emoji.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Implementation of sequence models, here LSTM RNN to predict emoji for a given line of text. The achieved accuracy is 76%.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data:</h3>
+<p><a href="https://www.kaggle.com/datasets/alvinrindra/emojify">Emojify Dataset</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://colab.research.google.com/drive/1j0XXMne7iM4jtpvwa-hDKC2_4d-_jngE?usp=sharing">Google Colab Notebook</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/NLP/emoji_predictor.html</guid>
+  <pubDate>Sat, 07 Dec 2019 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Real-time face recognition</title>
+  <link>https://vinayakkgarg.github.io/projects/Kaggle/face_recogn.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/face_recogn.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>A project which uses the K-Nearest Neighbours algorithm to recognise single/multiple faces from the live video frames.</p>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://github.com/vinayakkgarg/Real-Time-Face-Recognition">github</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Kaggle/face_recogn.html</guid>
+  <pubDate>Wed, 11 Sep 2019 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Titanic Survivor Prediction</title>
+  <link>https://vinayakkgarg.github.io/projects/Kaggle/titanic.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/titanic.webp" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Implementation of decision tree classifier from scratch and comparison against sklearn implementation of decision trees and random forest on Kaggle’s Titanic Survivor Prediction dataset. The obtained accuracy is 86%.</p>
+<section id="challenge" class="level3">
+<h3 class="anchored" data-anchor-id="challenge">Challenge:</h3>
+<p><a href="https://www.kaggle.com/c/titanic">Kaggle Challenge</a></p>
+</section>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<ol type="1">
+<li><a href="https://colab.research.google.com/drive/1Ic_n2U2z539pX3HzS_9n729sQBBokyVu?usp=sharing">Google Colab Notebook</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Kaggle/titanic.html</guid>
+  <pubDate>Sun, 30 Dec 2018 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>CraSOS</title>
+  <link>https://vinayakkgarg.github.io/projects/Robotics/crasos.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/crasos.jpeg" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>A standalone device with the capabilities of accident prevention, detection and recovery. On collision detection, SOS message(containing location, medical info) generated and sent to helpline numbers, 3 chosen emergency contact numbers and broadcasted using BLE Beacon &amp; nearby notifications.</p>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://github.com/parulagg27/CraSOS">github</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/Robotics/crasos.html</guid>
+  <pubDate>Thu, 30 Aug 2018 18:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Lane Detection App</title>
+  <link>https://vinayakkgarg.github.io/projects/CV/lane_detection.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[30,70]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
+<p><img src="https://vinayakkgarg.github.io/images/lane_detected.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p>Lane detection app which is primarily used for Path Planning for Self Driving Cars.</p>
+<section id="code" class="level3">
+<h3 class="anchored" data-anchor-id="code">Code:</h3>
+<p><a href="https://github.com/vinayakkgarg/Lane-Detection-App">github</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://vinayakkgarg.github.io/projects/CV/lane_detection.html</guid>
+  <pubDate>Sun, 29 Jul 2018 18:30:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
