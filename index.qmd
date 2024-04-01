@@ -1,0 +1,51 @@
+---
+title: "Vinayakk Garg"
+about:
+  id: hero-heading
+  template: trestles
+  image: images/profile.jpeg
+  links:
+    - icon: twitter
+      text: twitter 
+      href: https://twitter.com/VinayakkGarg
+    - icon: github
+      text: github
+      href: https://github.com/vinayakkgarg
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/vinayakkgarg/
+---
+
+<!-- ### This content appears above the formatted about page content. -->
+
+<!-- :::{#hero-heading} -->
+
+Hi, I'm currently a data scientist at Akamai. I can analyze data, develop AI models and build robot software. I enjoy playing with data to make sense out of it.
+
+## Education
+
+IIIT Bangalore<br/>
+MTech in Computer Science Engineering<br/>
+August 2021 - July 2023
+
+Bharati Vidyapeeth's College of Engg (GGSIPU) <br/>
+BTech in Information Technology<br/>
+July 2017 - June 2021
+
+## Experience
+
+[Akamai Technologies](https://www.akamai.com/){target="_blank"} | Data Scientist <br/>
+Jan 2023 - present
+
+[Deep Rooted](https://www.deeprooted.co/){target="_blank"} | Data Engineer Intern<br/>
+Sept 2022 - Nov 2022
+
+[Spyne.ai](https://www.spyne.ai/){target="_blank"} | Computer Vision Intern<br/>
+Nov 2021 - April 2022
+
+[IIT Delhi](https://home.iitd.ac.in/){target="_blank"} | Research Intern<br/>
+May 20 - Aug 20
+
+<!-- :::
+
+### This content appears below the formatted about page content. -->

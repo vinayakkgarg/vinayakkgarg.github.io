@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: 
+    categories: [featured]
+---
+<br/>

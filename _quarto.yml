@@ -1,0 +1,57 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+
+website:
+  title: "Vinayakk Garg"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Projects"
+        file: projects.qmd
+      - text: "Blog"
+        file: blog.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Highlights"
+        file: highlights.qmd
+      
+    tools:
+      - icon: twitter
+        href: https://twitter.com/VinayakkGarg
+      - icon: github
+        href: https://github.com/vinayakkgarg
+      - icon: linkedin
+        href: https://www.linkedin.com/in/vinayakkgarg/
+  
+  sidebar:
+    - title: "Projects"
+      style: "floating"
+      contents: 
+        - projects.qmd
+        - section: "Computer Vision"
+          contents: projects/CV/*
+        - section: "NLP"
+          contents: projects/NLP/*
+        - section: "Time-series"
+          contents: projects/Time-series/*
+        - section: "Robotics"
+          contents: projects/Robotics/*
+        - section: "Kaggle"
+          contents: projects/Kaggle/*
+          
+    - title: "Publications"
+      style: "floating"
+      contents: 
+        - publications.qmd
+        - section: "Publications"
+          contents: publications/*
+
+execute:
+  freeze: auto

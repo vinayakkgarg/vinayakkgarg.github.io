@@ -1,0 +1,119 @@
+{
+  "index.qmd": {
+    "index.html": "01224acc"
+  },
+  "about.qmd": {
+    "about.html": "04c009b9"
+  },
+  "projects.qmd": {
+    "projects.html": "23967397"
+  },
+  "blog.qmd": {
+    "blog.html": "d10f1dbe"
+  },
+  "blogs/blog2.qmd": {
+    "blog2.html": "b5c821b9"
+  },
+  "blogs/blog1.qmd": {
+    "blog1.html": "a5c5eff7"
+  },
+  "projects/project1.qmd": {
+    "project1.html": "9685c9ce"
+  },
+  "projects/project2.qmd": {
+    "project2.html": "b5e21ee9"
+  },
+  "posts/blog2.qmd": {
+    "blog2.html": "6d6f5317"
+  },
+  "posts/blog1.qmd": {
+    "blog1.html": "d614fc53"
+  },
+  "posts/blog3.qmd": {
+    "blog3.html": "efb6c243"
+  },
+  "projects/micro/project1.qmd": {
+    "project1.html": "7d884cbc"
+  },
+  "projects/micro/project2.qmd": {
+    "project2.html": "8a9ae350"
+  },
+  "projects/NLP/project1.qmd": {
+    "project1.html": "baa01dd6"
+  },
+  "projects/NLP/project2.qmd": {
+    "project2.html": "eae44f5a"
+  },
+  "projects/CV/project1.qmd": {
+    "project1.html": "b1c4a9e4"
+  },
+  "projects/CV/project2.qmd": {
+    "project2.html": "ec873ab6"
+  },
+  "publications/pub2.qmd": {
+    "pub2.html": "7f248757"
+  },
+  "publications/pub1.qmd": {
+    "pub1.html": "dc618d38"
+  },
+  "publications.qmd": {
+    "publications.html": "b1015605"
+  },
+  "projects/project.qmd": {
+    "project.html": "ec008f99"
+  },
+  "projects/hybrid_lstm.qmd": {
+    "hybrid_lstm.html": "9bcc9865"
+  },
+  "projects/micro/llm_chatbot.qmd": {
+    "llm_chatbot.html": "6010ca78"
+  },
+  "projects/CV/lane_detection.qmd": {
+    "lane_detection.html": "5f20b985"
+  },
+  "projects/NLP/llm_chatbot.qmd": {
+    "llm_chatbot.html": "83eec390"
+  },
+  "projects/NLP/movie_review_sentiment_analysis.qmd": {
+    "movie_review_sentiment_analysis.html": "9bd1d8a4"
+  },
+  "projects/Time-series/hybrid_lstm.qmd": {
+    "hybrid_lstm.html": "e92c5c27"
+  },
+  "projects/Robotics/crasos.qmd": {
+    "crasos.html": "d171fd8e"
+  },
+  "publications/siamese.qmd": {
+    "siamese.html": "23cc71fb"
+  },
+  "publications/hybrid_lstm.qmd": {
+    "hybrid_lstm.html": "dbe89a66"
+  },
+  "projects/CV/imagenet.qmd": {
+    "imagenet.html": "043d709b"
+  },
+  "projects/NLP/emoji_predictor.qmd": {
+    "emoji_predictor.html": "33454913"
+  },
+  "highlights.qmd": {
+    "highlights.html": "6cb05cd6"
+  },
+  "projects/CV/covid.qmd": {
+    "covid.html": "1abd99e8"
+  },
+  "projects/Kaggle/mnist_analysis.qmd": {
+    "mnist_analysis.html": "3b68075c"
+  },
+  "projects/Kaggle/face_recogn.qmd": {
+    "face_recogn.html": "54abfeb8"
+  },
+  "projects/Kaggle/titanic.qmd": {
+    "titanic.html": "9764406a"
+  },
+  "projects/Kaggle/fashion_mnist.qmd": {
+    "fashion_mnist.html": "09809e50"
+  },
+  "projects/Kaggle/housing_prices.qmd": {
+    "housing_prices.html": "536d130e"
+  }
+}
