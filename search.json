@@ -1,0 +1,249 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Here are some of my latest articles on Medium:\n\nNo BS guide to your first open-source contribution\nWhat Happens After Your First Pull Request Gets Merged?\n\nFor more, visit my Medium profile."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Check out my google scholar profile here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHybridLSTM for NIFTY50 prediction using global indices and technical indicators\n\n\n\n\n\n\n\n\n\n\n\nJul 6, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nSiamese Neural Networks for Pandemic Detection Using Chest Radiographs\n\n\n\n\n\n\n\n\n\n\n\nJun 1, 2022\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Mental health LLM Chatbot\n\n\n\n\n\n\n\n\n\nMar 31, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHybrid LSTM for NIFTY50 predictions\n\n\n\n\n\n\n\n\n\nJun 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nMovie Reviews Sentiment Analysis\n\n\n\n\n\n\n\n\n\nDec 31, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID Multiclassifier\n\n\n\n\n\n\n\n\n\nOct 31, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nFashion MNIST Analysis\n\n\n\n\n\n\n\n\n\nSep 6, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nImagenet4U\n\n\n\n\n\n\n\n\n\nJul 31, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nMNIST Analysis\n\n\n\n\n\n\n\n\n\nMay 31, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nHousing Prices Prediction\n\n\n\n\n\n\n\n\n\nMar 31, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nEmoji Predictor\n\n\n\n\n\n\n\n\n\nDec 8, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nReal-time face recognition\n\n\n\n\n\n\n\n\n\nSep 12, 2019\n\n\n\n\n\n\n\n\n\n\n\n\nTitanic Survivor Prediction\n\n\n\n\n\n\n\n\n\nDec 31, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nCraSOS\n\n\n\n\n\n\n\n\n\nAug 31, 2018\n\n\n\n\n\n\n\n\n\n\n\n\nLane Detection App\n\n\n\n\n\n\n\n\n\nJul 30, 2018\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/CV/lane_detection.html",
+    "href": "projects/CV/lane_detection.html",
+    "title": "Lane Detection App",
+    "section": "",
+    "text": "Lane detection app which is primarily used for Path Planning for Self Driving Cars.\n\nCode:\ngithub",
+    "crumbs": [
+      "Projects",
+      "Computer Vision",
+      "Lane Detection App"
+    ]
+  },
+  {
+    "objectID": "projects/NLP/llm_chatbot.html",
+    "href": "projects/NLP/llm_chatbot.html",
+    "title": "Mental health LLM Chatbot",
+    "section": "",
+    "text": "Developed this project while leading the ML team at Omdena.  An innovative chatbot designed to diagnose mental health issues such as social media addiction, social isolation, and cyberbullying, based on responses to a customized questionnaire.\n\n\n\nThe solution involved several key technical strategies:\n\nCustom Dataset Creation:\nLeveraged the Gemini and Google Bard models to generate a unique dataset simulating various mental health scenarios, facilitating the chatbot’s ability to provide personalized advice and support.\n\n\nModel Selection and Fine-Tuning:\nChose Mistral Instruct 7B for its robust capabilities, performing supervised fine-tuning with our custom dataset for enhanced specificity to mental health conditions.\n\n\nAdvanced Model Refinement:\nEmployed Direct Preference Optimization (DPO) within a Reinforcement Learning from Human Feedback (RLHF) framework, further aligning the chatbot’s responses with user needs. Parameter Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA) techniques were utilized for efficient training on a single NVIDIA A100 GPU.\n\n\nDeployment Strategy:\nThe chatbot was deployed using Streamlit on a Google Cloud Platform (GCP) Virtual Machine (VM). To ensure global accessibility, firewall rules were modified, allowing users worldwide to interact with the Streamlit application seamlessly.\nThis comprehensive approach not only optimized the chatbot for accurately identifying and addressing users’ mental health challenges but also demonstrated a model for deploying AI-driven health support tools globally.",
+    "crumbs": [
+      "Projects",
+      "NLP",
+      "Mental health LLM Chatbot"
+    ]
+  },
+  {
+    "objectID": "projects/NLP/movie_review_sentiment_analysis.html",
+    "href": "projects/NLP/movie_review_sentiment_analysis.html",
+    "title": "Movie Reviews Sentiment Analysis",
+    "section": "",
+    "text": "A multilayer perceptron model to classify the movie reviews from the IMDB dataset as positive or negative. The obtained accuracy on test set is 85%.\n\nData:\nIMDB Dataset of 50K Movie Reviews-Kaggle\n\n\nCode:\n\nMLP Colab Notebook\nRNN LSTM Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "NLP",
+      "Movie Reviews Sentiment Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/Kaggle/housing_prices.html",
+    "href": "projects/Kaggle/housing_prices.html",
+    "title": "Housing Prices Prediction",
+    "section": "",
+    "text": "Analysis of performance of linear regression against a neural network on the house prices dataset of Kaggle challenge.\n\nChallenge:\nKaggle Challenge\n\n\nCode:\n\nGoogle Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "Kaggle",
+      "Housing Prices Prediction"
+    ]
+  },
+  {
+    "objectID": "projects/Kaggle/face_recogn.html",
+    "href": "projects/Kaggle/face_recogn.html",
+    "title": "Real-time face recognition",
+    "section": "",
+    "text": "A project which uses the K-Nearest Neighbours algorithm to recognise single/multiple faces from the live video frames.\n\nCode:\ngithub",
+    "crumbs": [
+      "Projects",
+      "Kaggle",
+      "Real-time face recognition"
+    ]
+  },
+  {
+    "objectID": "projects/Kaggle/titanic.html",
+    "href": "projects/Kaggle/titanic.html",
+    "title": "Titanic Survivor Prediction",
+    "section": "",
+    "text": "Implementation of decision tree classifier from scratch and comparison against sklearn implementation of decision trees and random forest on Kaggle’s Titanic Survivor Prediction dataset. The obtained accuracy is 86%.\n\nChallenge:\nKaggle Challenge\n\n\nCode:\n\nGoogle Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "Kaggle",
+      "Titanic Survivor Prediction"
+    ]
+  },
+  {
+    "objectID": "publications/hybrid_lstm.html",
+    "href": "publications/hybrid_lstm.html",
+    "title": "HybridLSTM for NIFTY50 prediction using global indices and technical indicators",
+    "section": "",
+    "text": "Published in: 2021 12th International Conference on Computing Communication and Networking Technologies (ICCCNT)\nPublisher: IEEE\n\n\nAbstract:\nThe Indian stock market is a venue for investors to buy and sell shares and make profits during the trades. The forecasting of stock prices ahead of time can help investors to generate more profits. However, the fluctuation of stock prices depends on many factors that are difficult to track manually. In this research, we propose the use of the long short-term network architecture to do effective forecasting of the NIFTY50 stock price index. We propose a hybrid model which uses a combination of 20 technical indicators and 13 global indices as the input variables. We then compare the performance of three long short-term memory networks with different input variables i.e. technical indicators, global indices and the combination of both. The performance of the three models is evaluated using root mean squared error, mean absolute error and r-squared error.\n\n\nPublication Link:\nHybridLSTM for NIFTY50 prediction using global indices and technical indicators",
+    "crumbs": [
+      "Publications",
+      "HybridLSTM for NIFTY50 prediction using global indices and technical indicators"
+    ]
+  },
+  {
+    "objectID": "publications/siamese.html",
+    "href": "publications/siamese.html",
+    "title": "Siamese Neural Networks for Pandemic Detection Using Chest Radiographs",
+    "section": "",
+    "text": "Published in: International Journal on “Technical and Physical Problems of Engineering” (IJTPE)\nPublisher: International Organization of IOTPE\n\n\nAbstract:\nThe recent developments in the field of deep learning have enabled the efficient diagnosis of medical imaging for determining a broad set of diseases. To reduce the spread and impact of the pandemic (COVID virus), machine learning techniques can be used to diagnose and predict the disease using chest X-ray images. In this research, we present an approach using Siamese Convolutional Neural Network (SCNN) to classify chest x-ray images into four classes, namely pandemic, SevereCOVID, Pneumonia and Normal. We present a comparative study between the performance of our Siamese network and other pre-trained CNN architectures i.e. VGG-16 and ResNet50 in this research. The model performance is tested by merging two publicly available datasets: COVID-Chest-Xray dataset and Chest X-Ray Images (Pneumonia). We achieved an accuracy of 98% on Siamese ResNet50 which gives the best performance in contrast to 95% on VGG-16, 93% on ResNet50 and 96% on Siamese VGG-16.\n\n\nPublication Link:\nSiamese Neural Networks for Pandemic Detection Using Chest Radiographs",
+    "crumbs": [
+      "Publications",
+      "Siamese Neural Networks for Pandemic Detection Using Chest Radiographs"
+    ]
+  },
+  {
+    "objectID": "projects/Time-series/hybrid_lstm.html",
+    "href": "projects/Time-series/hybrid_lstm.html",
+    "title": "Hybrid LSTM for NIFTY50 predictions",
+    "section": "",
+    "text": "Stock market prediction using Long Short Term Memory Networks (LSTMs)\n\n\n\nAggregated NIFTY50 index data along with other global indices from various international stock markets, aiming to analyze the impact of global trends on the NIFTY50 index. Utilised statistics to develop technical indicators to capture market dynamics accurately.\nEngineered a Hybrid LSTM model that incorporates Long Short-Term Memory networks to leverage temporal dependencies and the influence of global market trends on the NIFTY50 index.\nThe model was rigorously tested using advanced metrics like Mean Squared Error (MSE), Mean Absolute Error (MAE), and R2 score to ensure optimal performance. The goal was to accurately predict the NIFTY50 index’s movements by understanding its correlation with global market trends.\nAchieved the goal of delineating the NIFTY50 index’s responsiveness to global market trends, resulting in a research paper that was presented at an IEEE conference, highlighting the project’s success in combining AI with financial analysis to forecast market movements effectively.\n\nCode:\ngithub\n\n\nPublication Link:\nHybrid LSTM for NIFTY50 predictions",
+    "crumbs": [
+      "Projects",
+      "Time-series",
+      "Hybrid LSTM for NIFTY50 predictions"
+    ]
+  },
+  {
+    "objectID": "projects/Kaggle/mnist_analysis.html",
+    "href": "projects/Kaggle/mnist_analysis.html",
+    "title": "MNIST Analysis",
+    "section": "",
+    "text": "Implementation of a small size convolutional neural network using Keras API and Naive Bayes classifier for recognition of handwritten digits using the MNIST dataset. The obtained accuracy is 99%.\n\nChallenge:\nKaggle Challenge\n\n\nCode:\n\nNaive Bayes Colab Notebook\nCNN Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "Kaggle",
+      "MNIST Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/Kaggle/fashion_mnist.html",
+    "href": "projects/Kaggle/fashion_mnist.html",
+    "title": "Fashion MNIST Analysis",
+    "section": "",
+    "text": "Convolutional Neural Networks implementation using Keras API for analysis on the fashion MNIST dataset. The obtained accuracy on the test set is 86%.\n\nChallenge:\nKaggle Challenge\n\n\nCode:\n\nGoogle Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "Kaggle",
+      "Fashion MNIST Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/Robotics/crasos.html",
+    "href": "projects/Robotics/crasos.html",
+    "title": "CraSOS",
+    "section": "",
+    "text": "A standalone device with the capabilities of accident prevention, detection and recovery. On collision detection, SOS message(containing location, medical info) generated and sent to helpline numbers, 3 chosen emergency contact numbers and broadcasted using BLE Beacon & nearby notifications.\n\nCode:\ngithub",
+    "crumbs": [
+      "Projects",
+      "Robotics",
+      "CraSOS"
+    ]
+  },
+  {
+    "objectID": "projects/NLP/emoji_predictor.html",
+    "href": "projects/NLP/emoji_predictor.html",
+    "title": "Emoji Predictor",
+    "section": "",
+    "text": "Implementation of sequence models, here LSTM RNN to predict emoji for a given line of text. The achieved accuracy is 76%.\n\nData:\nEmojify Dataset\n\n\nCode:\nGoogle Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "NLP",
+      "Emoji Predictor"
+    ]
+  },
+  {
+    "objectID": "projects/CV/imagenet.html",
+    "href": "projects/CV/imagenet.html",
+    "title": "Imagenet4U",
+    "section": "",
+    "text": "Implementation of deep CNN to classify horses, dogs, humans and cats trained on a part of the imagenet dataset. Training and validation generator used in pipeline to accomodate large data.\n\nData:\nImagenet Dataset\n\n\nCode:\nGoogle Colab Notebook",
+    "crumbs": [
+      "Projects",
+      "Computer Vision",
+      "Imagenet4U"
+    ]
+  },
+  {
+    "objectID": "projects/CV/covid.html",
+    "href": "projects/CV/covid.html",
+    "title": "COVID Multiclassifier",
+    "section": "",
+    "text": "A machine learning model which uses Siamese network based architecture to perform multi-class classification to identify and separate Pneumonia, Normal, COVID-19, and Severe COVID-19 patients on the basis of the X-Ray images. The obtained accuracy is 98%.",
+    "crumbs": [
+      "Projects",
+      "Computer Vision",
+      "COVID Multiclassifier"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Vinayakk Garg",
+    "section": "",
+    "text": "Hi, I’m currently a data scientist at Akamai. I can analyze data, develop AI models and build robot software. I enjoy playing with data to make sense out of it."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Vinayakk Garg",
+    "section": "Education",
+    "text": "Education\nIIIT Bangalore MTech in Computer Science Engineering August 2021 - July 2023\nBharati Vidyapeeth’s College of Engg (GGSIPU)  BTech in Information Technology July 2017 - June 2021"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Vinayakk Garg",
+    "section": "Experience",
+    "text": "Experience\nAkamai Technologies | Data Scientist  Jan 2023 - present\nDeep Rooted | Data Engineer Intern Sept 2022 - Nov 2022\nSpyne.ai | Computer Vision Intern Nov 2021 - April 2022\nIIT Delhi | Research Intern May 20 - Aug 20"
+  },
+  {
+    "objectID": "highlights.html#achievements",
+    "href": "highlights.html#achievements",
+    "title": "Highlights",
+    "section": "Achievements",
+    "text": "Achievements\n\nGold Medal in ML & Big Data Trade - at BRICS Future Skills Challenge while representing India, 2022\nRank 36 - in Amazon ML Challenge out of 800+ teams, 2023\nNational Finalist at rank 5 - in the eYantra Robotics Competition organised by IIT Bombay, 2019"
+  },
+  {
+    "objectID": "highlights.html#leadership-and-volunteering",
+    "href": "highlights.html#leadership-and-volunteering",
+    "title": "Highlights",
+    "section": "Leadership and Volunteering",
+    "text": "Leadership and Volunteering\n\nML Team Lead - At Omdena, 2024. Lead a team of 12 to spearhead an end-to-end LLM chatbot application for mental health analysis\nHead, Robotics & Intelligent Systems - At Developer Student Clubs BVP, 2020. Organised events and workshops to enhance technical knowledge and practical skills among students\nGoogle Code-in Mentor - for Tensorflow, 2019. Mentored high-school students participating in Google’s open-source event\nVolunteer, Photography & Design Team - At Amoli Trust, 2019"
+  },
+  {
+    "objectID": "highlights.html#examination-scores",
+    "href": "highlights.html#examination-scores",
+    "title": "Highlights",
+    "section": "Examination Scores",
+    "text": "Examination Scores\n\nAll India Rank 1089 (99th percentile) - in Graduate Aptitude Test in Engineering, GATE CSIT 2021"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/hybrid_lstm.html",
+      "/publications/siamese.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/NLP/llm_chatbot.html",
+      "/projects/Time-series/hybrid_lstm.html",
+      "/projects/NLP/movie_review_sentiment_analysis.html",
+      "/projects/CV/covid.html",
+      "/projects/Kaggle/fashion_mnist.html",
+      "/projects/CV/imagenet.html",
+      "/projects/Kaggle/mnist_analysis.html",
+      "/projects/Kaggle/housing_prices.html",
+      "/projects/NLP/emoji_predictor.html",
+      "/projects/Kaggle/face_recogn.html",
+      "/projects/Kaggle/titanic.html",
+      "/projects/Robotics/crasos.html",
+      "/projects/CV/lane_detection.html"
+    ]
+  }
+]
