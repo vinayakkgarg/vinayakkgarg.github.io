@@ -1,0 +1,668 @@
+/**
+* Styles for sections added on top of the iPortfolio template:
+* skills as tag groups, publications, highlights subtitles, blog cards and contact cards.
+* All colors come from the template's CSS custom properties so both light and dark
+* section backgrounds keep working.
+*/
+
+/*--------------------------------------------------------------
+# Skills — tag groups replacing the template's percentage bars
+--------------------------------------------------------------*/
+.skills .skill-group {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.skills .skill-group h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 18px;
+}
+
+.skills .skill-group h4 i {
+  color: var(--accent-color);
+  margin-right: 8px;
+}
+
+.skills .skill-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.skills .skill-tags li {
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  color: var(--default-color);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 75%);
+}
+
+/*--------------------------------------------------------------
+# Publications
+--------------------------------------------------------------*/
+.publications .publication-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent-color);
+  height: 100%;
+}
+
+.publications .publication-item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 12px;
+}
+
+.publications .publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  margin-bottom: 18px;
+}
+
+.publications .publication-meta span {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.publications .publication-meta i {
+  color: var(--accent-color);
+  margin-right: 6px;
+}
+
+.publications .publication-item p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.publications .publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.publications .publication-links a {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.publications .publication-links a:hover {
+  color: color-mix(in srgb, var(--accent-color), var(--heading-color) 40%);
+}
+
+.publications .publication-links i {
+  margin-right: 6px;
+}
+
+/*--------------------------------------------------------------
+# Highlights — subtitles between the template's service-item grids
+--------------------------------------------------------------*/
+.highlights-subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 35px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+}
+
+.highlights-subtitle:first-of-type {
+  margin-top: 0;
+}
+
+#highlights .service-item .title a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent-color);
+}
+
+#highlights .service-item .title a:hover {
+  color: var(--accent-color);
+}
+
+#highlights .service-item .description a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog .blog-item {
+  display: block;
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  height: 100%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.blog .blog-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+}
+
+.blog .blog-item i {
+  font-size: 32px;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+  display: block;
+}
+
+.blog .blog-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.blog .blog-item span {
+  font-size: 14px;
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Contact — cards replacing the template's PHP form
+--------------------------------------------------------------*/
+.contact .contact-card {
+  display: block;
+  text-align: center;
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  border-radius: 8px;
+  height: 100%;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact .contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.15);
+}
+
+.contact .contact-card i {
+  font-size: 28px;
+  color: var(--accent-color);
+  margin-bottom: 12px;
+  display: block;
+}
+
+.contact .contact-card h3 {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 6px;
+}
+
+.contact .contact-card p {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin: 0;
+  word-break: break-word;
+}
+
+/*--------------------------------------------------------------
+# Colour theme — teal accents on slate neutrals.
+# main.css drives every colour through these custom properties, so
+# redefining them here retints the whole site without touching it.
+#
+# The accent is deliberately different per surface: teal-700 is dark
+# enough to pass AA as link text on white, while teal-400 is the shade
+# that stays legible against slate-950. Same hue, both readable.
+--------------------------------------------------------------*/
+:root {
+  --background-color: #ffffff;
+  --default-color: #334155;
+  /* slate-700 */
+  --heading-color: #0f172a;
+  /* slate-900 */
+  --accent-color: #0f766e;
+  /* teal-700 */
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+:root {
+  --nav-color: #94a3b8;
+  /* slate-400 */
+  --nav-hover-color: #2dd4bf;
+  /* teal-400 */
+  --nav-mobile-background-color: #020617;
+  /* slate-950 */
+  --nav-dropdown-background-color: #020617;
+  --nav-dropdown-color: #94a3b8;
+  --nav-dropdown-hover-color: #2dd4bf;
+}
+
+.light-background {
+  --background-color: #f8fafc;
+  /* slate-50 */
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #020617;
+  /* slate-950 */
+  --default-color: #cbd5e1;
+  /* slate-300 */
+  --heading-color: #f8fafc;
+  /* slate-50 */
+  --surface-color: #1e293b;
+  /* slate-800 */
+  --accent-color: #2dd4bf;
+  /* teal-400 */
+  --contrast-color: #020617;
+}
+
+/*--------------------------------------------------------------
+# Stats — "+" suffix without disturbing the purecounter element,
+# which rewrites its own text content as it animates.
+--------------------------------------------------------------*/
+.stats .stats-item.has-plus .purecounter::after {
+  content: "+";
+}
+
+/*--------------------------------------------------------------
+# Hero background — gradient instead of a photo.
+# Three soft radial glows (teal, cyan, blue) over a slate base,
+# echoing the teal bloom and teal/cyan/blue accents of the
+# reference design. No image request, so the hero paints instantly.
+--------------------------------------------------------------*/
+.hero {
+  background-color: #020617;
+  background-image:
+    radial-gradient(62% 46% at 50% 104%, rgba(20, 184, 166, 0.30) 0%, rgba(20, 184, 166, 0) 68%),
+    radial-gradient(46% 42% at 12% 8%, rgba(6, 182, 212, 0.16) 0%, rgba(6, 182, 212, 0) 70%),
+    radial-gradient(52% 46% at 88% 4%, rgba(37, 99, 235, 0.16) 0%, rgba(37, 99, 235, 0) 72%),
+    linear-gradient(180deg, #020617 0%, #0b1220 52%, #020617 100%);
+  background-repeat: no-repeat;
+}
+
+/* The template dims the hero photo with a translucent scrim; with no
+   photo to dim it would only mute the gradient. */
+.hero:before {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Hero copy — greeting, headline, supporting line
+--------------------------------------------------------------*/
+.hero .hero-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Greeting is a large statement line in the reference, not a small kicker. */
+.hero .hero-greeting {
+  font-size: clamp(28px, 5.2vw, 48px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #f1f5f9;
+  /* slate-100 */
+  margin: 0 0 24px 0;
+}
+
+.hero .hero-headline {
+  font-size: clamp(36px, 7.4vw, 72px);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  max-width: 56rem;
+  margin: 0 0 16px 0;
+}
+
+/* Animated gradient sweeping through the headline: the background is
+   clipped to the glyphs and slid across a 300%-wide ramp. */
+.hero .hero-headline-gradient {
+  display: inline-block;
+  background-image: linear-gradient(to right, #86efac, #2dd4bf, #3b82f6, #86efac);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: hero-gradient-sweep 8s linear infinite;
+}
+
+.hero .hero-headline-gradient span {
+  display: block;
+  font-weight: 700;
+}
+
+@keyframes hero-gradient-sweep {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero .hero-headline-gradient {
+    animation: none;
+  }
+}
+
+.hero .hero-lead {
+  font-size: clamp(16px, 2vw, 18px);
+  line-height: 1.65;
+  max-width: 36rem;
+  margin: 24px auto;
+  color: #cbd5e1;
+  /* slate-300 */
+}
+
+/*--------------------------------------------------------------
+# Hero call-to-action buttons
+--------------------------------------------------------------*/
+.hero .hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .hero .hero-cta {
+    flex-direction: row;
+  }
+}
+
+.hero .btn-hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+/* The reference pairs white text with a green-400 start, which lands at
+   1.74:1. Same shape, shifted to stops that keep white readable throughout. */
+.hero .btn-hero-primary {
+  background-image: linear-gradient(135deg, #0f766e, #1d4ed8);
+  background-size: 140% 140%;
+  background-position: 0% 0%;
+  color: #ffffff;
+  border: 2px solid transparent;
+}
+
+.hero .btn-hero-primary:hover {
+  background-position: 100% 100%;
+  color: #ffffff;
+}
+
+.hero .btn-hero-primary i {
+  transition: transform 0.3s;
+}
+
+.hero .btn-hero-primary:hover i {
+  transform: translateX(4px);
+}
+
+.hero .btn-hero-outline {
+  color: var(--heading-color);
+  border: 2px solid color-mix(in srgb, var(--heading-color), transparent 65%);
+}
+
+.hero .btn-hero-outline:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Project cards — content stays visible instead of hiding on hover,
+# so titles, dates and tech stack are readable on touch devices too.
+--------------------------------------------------------------*/
+.portfolio .portfolio-card {
+  background-color: var(--surface-color);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio .portfolio-card-media {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-card-media img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s;
+}
+
+.portfolio .portfolio-card:hover .portfolio-card-media img {
+  transform: scale(1.06);
+}
+
+.portfolio .portfolio-card-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  /* slate-950 at 0.72 — enough that both the white icons and the teal
+     hover state stay legible even over a near-white project image. */
+  background: rgba(2, 6, 23, 0.72);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-card:hover .portfolio-card-overlay,
+.portfolio .portfolio-card-overlay:focus-within {
+  opacity: 1;
+}
+
+.portfolio .portfolio-card-overlay a {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.portfolio .portfolio-card-overlay a:hover {
+  /* This scrim is dark even inside a light section, so it needs the
+     light teal rather than the section's darker link accent. */
+  color: #2dd4bf;
+}
+
+.portfolio .portfolio-card-body {
+  padding: 20px;
+}
+
+.portfolio .portfolio-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 12.5px;
+  margin-bottom: 10px;
+}
+
+.portfolio .portfolio-card-cat {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 88%);
+  color: var(--accent-color);
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.portfolio .portfolio-card-date {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.portfolio .portfolio-card-body h4 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.portfolio .portfolio-card-body h4 a {
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-card-body h4 a:hover {
+  color: var(--accent-color);
+}
+
+.portfolio .portfolio-card-body .portfolio-card-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 12px;
+}
+
+.portfolio .portfolio-card-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.portfolio .portfolio-card-link i {
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-card-link:hover i {
+  transform: translateX(4px);
+}
+
+/*--------------------------------------------------------------
+# Resume — multiple roles grouped under one employer
+--------------------------------------------------------------*/
+.resume .resume-item h4 a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume .resume-item h4 a:hover {
+  color: var(--accent-color);
+}
+
+.resume .resume-item .resume-role {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px 14px;
+  margin: 0 0 10px 0;
+  padding-top: 14px;
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+}
+
+.resume .resume-item .resume-role strong {
+  font-size: 15px;
+  color: var(--heading-color);
+}
+
+.resume .resume-item .resume-role span {
+  font-size: 13px;
+  font-style: italic;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+/* The template indents every list inside a resume item; badges must not be. */
+.resume .resume-item ul.tech-tags {
+  padding-left: 0;
+}
+
+.resume .resume-item ul.tech-tags li {
+  padding-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Tech stack badges (project cards and detail pages)
+--------------------------------------------------------------*/
+.tech-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-tags li {
+  font-size: 11.5px;
+  padding: 3px 9px;
+  border-radius: 4px;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+}
+
+/*--------------------------------------------------------------
+# Project detail pages
+--------------------------------------------------------------*/
+.portfolio-details .project-body h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin: 25px 0 12px 0;
+}
+
+.portfolio-details .project-body p {
+  line-height: 1.7;
+}
+
+.portfolio-details .portfolio-info ul a {
+  color: var(--accent-color);
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.portfolio-details .project-image img {
+  width: 100%;
+  border-radius: 8px;
+}
